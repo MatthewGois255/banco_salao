@@ -10,10 +10,10 @@ docker run --name bancosalao -e MYSQL_ROOT_PASSWORD=123bancoSalao -v ~/dados-mys
 
 ### Enabling Port Forwarding in VirtualBox
 
-Settings > Network > Port Forwarding > add rule (at the top right side)
-Host IP = 127.0.0.1
-Host Port = 3280
-Guest IP = 10.0.2.15
+Settings > Network > Port Forwarding > add rule (at the top right side) <br>
+Host IP = 127.0.0.1 <br>
+Host Port = 3280 <br>
+Guest IP = 10.0.2.15 <br>
 Guest Port = 3280
 
 ### Creating Database
