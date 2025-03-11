@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/b97f6e1a-acf9-4620-9104-c31eb3800263" alt="docker/mysql" style="width: 300px">
+<img src="https://github.com/user-attachments/assets/b97f6e1a-acf9-4620-9104-c31eb3800263" alt="docker/mysql" style="width: 400px; text-align: center">
 
 ### Docker commands
 ~~~
