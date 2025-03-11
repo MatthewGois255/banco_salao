@@ -33,7 +33,10 @@ The Modeling file is [here](bancosalao.mwb)
 **Specific client appointments**
 
 ```mysql
-SELECT cl.nome, fc.nome, ag.data_hora 
+SELECT
+	cl.nome
+	, fc.nome
+	, ag.data_hora 
 FROM
 	Clientes cl INNER JOIN Agendamentos ag ON cl.id_cliente = ag.id_cliente
 	INNER JOIN Funcionarios fc ON fc.id_funcionario = ag.id_funcionario
@@ -47,7 +50,7 @@ WHERE
 ```mysql
 SELECT
 	SUM(valor) AS Faturamento
-    , id_agendamento AS Numero_vendas
+    	, id_agendamento AS Numero_vendas
 FROM Pagamentos
 GROUP BY id_agendamento HAVING id_agendamento = 5
 ;
