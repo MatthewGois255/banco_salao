@@ -29,4 +29,25 @@ The Modeling file is [here](bancosalao.mwb)
 
 ### Queries
 
+**Specific client appointments**
 
+```mysql
+SELECT cl.nome, fc.nome, ag.data_hora 
+FROM
+	Clientes cl INNER JOIN Agendamentos ag ON cl.id_cliente = ag.id_cliente
+	INNER JOIN Funcionarios fc ON fc.id_funcionario = ag.id_funcionario
+WHERE
+	cl.nome = 'Rute' -- Client's name to filter
+;
+```
+
+**Revenue/number of services**
+
+```mysql
+SELECT
+	SUM(valor) AS Faturamento
+    , id_agendamento AS Numero_vendas
+FROM Pagamentos
+GROUP BY id_agendamento HAVING id_agendamento = 5
+;
+```
