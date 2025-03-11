@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/b97f6e1a-acf9-4620-9104-c31eb3800263" alt="docker/mysql" style="width: 400px; text-align: center">
+<img src="https://github.com/user-attachments/assets/b97f6e1a-acf9-4620-9104-c31eb3800263" alt="docker/mysql" style="width: 500px">
 
 ### Docker commands
 ~~~
@@ -18,7 +18,7 @@ Host Port = 3280 <br>
 Guest IP = 10.0.2.15 <br>
 Guest Port = 3280
 
-<img src="portforwarding.png" alt="portforwarding" style="width: 300px">
+<img src="portforwarding.png" alt="portforwarding" style="width: 400px">
 
 ### Creating Database
 
